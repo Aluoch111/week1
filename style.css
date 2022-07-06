@@ -1,0 +1,61 @@
+header{
+    font-style: italic;
+    font-size: medium;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+h1{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(9, 95, 223);
+
+}
+h6{
+    font-size: small;
+    color: rgb(239, 245, 245);
+    border: 10px;
+    border-color: black;
+    background-color: blue;
+    background-position-x: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: 820px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+h4{ 
+    font-size: smaller;
+    color: rgb(12, 12, 192);
+    background-color: white;
+}
+p{
+    font-size: smaller;
+    font-weight: 100;
+}
+
+h2{
+    color: rgb(6, 82, 223);
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+}
+/* Three image containers */
+.column{
+    background-color: azure;
+    float: left;
+    width: 100px;
+    padding: 50px;
+    min-height: auto;
+    border: 25px;
+    border-color: white;
+}
+/*Clear floats after image containers*/
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
