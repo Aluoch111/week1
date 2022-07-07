@@ -22,6 +22,11 @@ Copyright(c)[2022][Grace Aluoch]
 
 Permision is granted to any person obtaining a copy of thid software and associated files including use,modification and sale.
 
+Authors Info
+Slack profile;Grace Aluoch
+
+
+
   
 
 
