@@ -43,7 +43,7 @@ h2{
     text-align: center;
 }
 /* Three image containers */
-.column{
+.row{
     background-color: azure;
     float: left;
     width: 100px;
@@ -58,8 +58,6 @@ h2{
     clear: both;
     display: table;
 }
-.div2{
+.row::after{
     display: flex;
-    flex-direction: row;
 }
-
